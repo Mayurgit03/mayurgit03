@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .game {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px 0;
+            background-color: #fff;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 0 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Gaming Website</h1>
+    </header>
+    <div class="container">
+        <div class="game">
+            <h2>Title of Game 1</h2>
+            <p>Description of Game 1.</p>
+            <button onclick="playGame1()">Play Game 1</button>
+        </div>
+        <div class="game">
+            <h2>Title of Game 2</h2>
+            <p>Description of Game 2.</p>
+            <button onclick="playGame2()">Play Game 2</button>
+        </div>
+    </div>
+
+    <script>
+        function playGame1() {
+            alert("Playing Game 1!");
+            // Add your game logic here
+        }
+
+        function playGame2() {
+            alert("Playing Game 2!");
+            // Add your game logic here
+        }
+    </script>
+</body>
+
+</html>
